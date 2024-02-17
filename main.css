@@ -1,0 +1,631 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden; 
+}
+
+.container {
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+     overflow: hidden;/* Hide any overflow beyond the container */
+    background-size: cover; /* Cover the entire viewport */
+    z-index: 1;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.container img {
+    width: 100%; /* Set the width of the image to 100% of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Ensure the image behaves as a block element */
+}
+
+.cont1 {
+    position: relative;
+    overflow: hidden;
+    top:-670px;
+    left:5%;
+    width: 90%; /* Set the width of the container */
+    height: 83%; /* Set the height of the container */
+    overflow:hidden; /* Hide any overflow beyond the container */
+    z-index: 2;
+    border-radius: 45px;
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.cont1 img {
+    width: 100%; /* Set the width of the image to 100% of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Ensure the image behaves as a block element */
+}
+
+.navbar{
+    position: absolute;
+    top:5px;
+        color: black;
+        padding: 0px 30px;
+        max-width: 1500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family:sans-serif;
+    
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    width:140px;
+}
+
+.logo img{
+    border-radius: 35px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding:8px 150px 0px 0px;
+    font-size: larger;
+    font-weight:1000;
+   
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 5px 1px;
+}
+
+.nav-links li:first-child {
+    margin-left: 80px;
+    
+}
+
+.nav-links li a {
+    color: #fdfbf5;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+    color: rgb(11, 178, 11);
+}
+
+
+
+
+.hero {
+
+    position: absolute;
+    top:80px;
+    width:150px;
+    left:500px;
+    background-position: center;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.cont2 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 20px;
+    background-color: rgb(13, 13, 13);
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100px;
+}
+
+.hero-subtitle {
+    font-size: 5rem;
+    margin-bottom: 30px;
+    position: relative;
+    top:-70px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(26, 101, 7);
+    font-style: italic;
+}
+
+.cap1{
+    position: relative;
+    top:-100px;
+    left:80px;
+    color: black;
+    font-style: italic;
+}
+.cap2{
+    position: relative;
+    top:-100px;
+    left:-30px;
+    color: black;
+    font-style: italic;
+    width:500px;
+}
+
+.hero-btn {
+    display: inline-block;
+    position: relative;
+    top:-55px;
+    padding: 5px 20px;
+    background-color:rgb(26, 101, 7);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #0c0b0b;
+}
+
+/* founder */
+.container2{
+    position: relative;
+    top:-600px;
+    
+}
+
+.heading1{
+    position: relative;
+    left:600px;
+    top:10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(16, 96, 49);
+
+}
+.heading2{
+    position: relative;
+    left:490px;
+    top:1px;
+    font-weight: bolder;
+    color:rgb(16, 96, 49);
+   
+}
+
+.about-founder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-family: sans-serif;
+    position: relative;
+    top: -50px;
+   
+}
+
+.left-section, .right-section {
+    flex: 1;
+}
+
+.left-section {
+    position: relative;
+    text-align: center;
+}
+
+.right-section {
+    position: relative;
+    left:100px;
+   
+}
+.right-section img{
+    position: relative;
+    left:-100px;
+    width:480px;
+    height:700px;
+}
+
+.left-left{
+    position: absolute;
+    top:-250px;
+    left:200px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:150px;
+}
+.left-right{
+    position: absolute;
+    top:-267px;
+    left:330px;
+    text-align: left;
+
+    
+}
+.heading3{
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(16, 96, 49);
+}
+.para1{
+    color:rgb(18, 16, 16);
+
+}
+.heading4{
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(16, 96, 49);
+    position: relative;
+    top:20px;
+}
+.para2{
+    color:rgb(14, 13, 13);
+    position: relative;
+    top:20px;
+}
+.heading5{
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(16, 96, 49);
+    position: relative;
+    top:65px;
+}
+.para3{
+    color:rgb(15, 13, 13);
+    position: relative;
+    top:70px;
+
+}
+.heading6{
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(16, 96, 49);
+    position: relative;
+    top:110px;
+}
+.para4{
+    color:rgb(78, 75, 75);
+    position: relative;
+    top:110px;
+}
+.img2{
+    position: relative;
+    top:35px;
+}
+.img3 {
+    position: relative;
+    top:-30px;
+}
+.img4 {
+    position: relative;
+    top:-90px;
+}
+.more-about-us {
+    position: relative;
+    top: 340px;
+    left: -410px;
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .more-about-us:hover {
+    background-color: darkgreen;
+    color: white;
+  }
+
+
+  /* why you will love patilkaki */
+  .why-love-patilkaki {
+    position: relative;
+   
+    text-align: center;
+    
+  }
+  
+  .why-love-patilkaki h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .feature {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    margin: 0;
+    color:rgb(83, 78, 78); 
+    position: relative;
+    
+  }
+
+  .why-love-patilkaki{
+    position: relative;
+    top:-600px;
+  }
+
+  .heading7{
+    font-size: 40px;
+    color: darkgreen;
+    font-weight: bolder;
+
+  }
+  .heading8{
+    color: darkgreen;
+    font-weight:2000;
+
+  }
+  .heading9{
+    color: darkgreen;
+    font-weight:2000;
+    position: relative;
+    top:20px;
+
+  }
+  .text{
+    position: relative;
+    width:350px;
+    
+  }
+  .img6{
+    position: relative;
+    top:20px;
+  }
+  .img7{
+    position: relative;
+    top:40px;
+  }
+  .text2{
+    position: relative;
+    width:350px;
+    top:20px;
+  }
+  .heading10{
+    color: darkgreen;
+    font-weight:2000;
+    position: relative;
+    top:22px;
+
+  }
+  .text3{
+    position: relative;
+    width:350px;
+    top:23px;
+  }
+
+  /* timer */
+  .countdown-container {
+    background-color: #1b6b08;
+   position: relative;
+   text-align: center;
+   width:100%;
+   height:400px;
+   top:-500px;
+   
+  }
+  .heading11{
+    position: relative;
+    top:50px;
+    left:25px;
+    z-index:2;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(25, 23, 23);
+    font-family: sans-serif;
+
+  }
+  .heading12{
+    position: relative;
+    top:30px;
+    left:25px;
+    z-index:2;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(25, 23, 23);
+    font-family: sans-serif;
+
+  }
+  .timer-box{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:30px;
+    left:530px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #066523;
+    background-color: rgb(101, 208, 101);
+    width: 500px;
+    height:350px;
+    z-index: 1;
+    border-radius: 5px;
+    
+  }
+  .timer1{
+    position: relative;
+    top:70px;
+    left:70px;
+    background-color: #b7f591;
+    padding:5px;
+    margin:50px;
+    border-radius: 5px;
+    width:90px;
+    height:90px;
+    text-align: center;
+  }
+  .timer2{
+    position: relative;
+    top:70px;
+    background-color: #baf198;
+    padding:5px;
+    margin:50px;
+    border-radius: 5px;
+    width:90px;
+    height:90px;
+    text-align: center;
+  }
+  .timer{
+    color: #066523;
+    position: relative;
+    top:130px;
+    left:30px;
+
+  }
+  .button1{
+    position: relative;
+    top:-600px;
+    width:300px;
+    height:50px;
+    left:630px;
+    z-index:2;
+    background-color: #0c0b0b;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  .button1:hover{
+    background-color: #023511;
+  }
+
+  /* CTA */
+  .cta{
+    position: relative;
+    width:100%;
+    height:300px;
+    top:-400px;
+
+  }
+  .cta-cont{
+    position: absolute;
+    top:-30px;
+   left:150px;
+    width:1200px;
+    height:400px;
+    background-color: #c6eca0;
+    border-radius: 15px;
+   
+  }
+  .heading13{
+    color:rgb(22, 20, 20);
+    position: relative;
+    top:10px;
+    left:40px;
+    font-size:28px;
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+  .heading14{
+    color:rgb(14, 15, 14);
+    font-size:10px;
+    position: absolute;
+    top:100px;
+    left:40px;
+    width:600px;
+
+  }
+  .img-section{
+    position: relative;
+    left:970px;
+   top:30px;
+  }
+  .img-section img{
+    width:300px;
+    height:auto;
+    border-radius: 40px;
+  }
+  .button2{
+    position: relative;
+    color:rgb(244, 239, 239);
+    background-color: #1d201e;
+    left:200px;
+    top:-160px;
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+
+  }
+ 
+
+  /* form */
+
+  .form-container {
+    z-index:3;
+    position: fixed;
+    bottom: -100%; /* Initially hidden below the viewport */
+    left: 0;
+    width: 30%;
+    height:400px;
+    margin:20px;
+    background-color: #87f77a;
+    padding: 10px;
+    transition: bottom 0.5s ease; /* Smooth sliding animation */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  }
+  
+  .form-content {
+    text-align: center;
+  }
+  
+  .form-content h2 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  
+  .form-content p {
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input
+  {
+    display: block;
+    width: 90%;
+    padding: 15px;
+    margin-top:20px;
+    margin-bottom: 19px;
+    margin-left:20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .button3{
+    display: block;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 17px;
+    margin-left:20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+  
+  button {
+    background-color: #0f100f;
+    color: #e4f0e5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #083e03;
+  }
